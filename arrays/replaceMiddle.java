@@ -24,20 +24,20 @@ public class replaceMiddle {
 	    int mid = arr[len/2] + arr[(len/2)-1];
 	    int[] arr2 = new int[len-1];
 	    
-	    if (len%2 == 1)
+	    if (len%2 == 1) //if odd number of elements, no change needed, return array
 	        return arr;
 	    
-	    if (len == 2) {
+	    if (len == 2) { //if only two elements in array, add them and return
 	        int[] arr3 = {arr[0] + arr[1]};
 	        return arr3;
 	    }
 	    
 	   for (int i=0; i<len; i++)
-	        if (i==len/2 || i==(len/2)-1) {
+	        if (i==len/2 || i==(len/2)-1) { //sets new middle element
 	            arr2[arr2.length/2] = mid;
-	            j = (len/2);
+	            j = (len/2); //keeps index in correct spot
 	        }else {
-	            arr2[j] = arr[i];
+	            arr2[j] = arr[i]; //copies every other element
 	            j++;
 	        }
 	    
