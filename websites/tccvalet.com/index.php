@@ -1,13 +1,13 @@
 <?php
 include "include.php";
 $content = "<table><tr><td>
-<h2>Welcome to TCC Valet!</h2>
-<h3>We offer Dry Cleaning Valet<br />Pickup & Delivery Service !</h3>
-<img class='imgcol' src='./media/van.png' />
-<h3>386-627-4972</h3></td><td>
-<h3>Check out our new store!<br />Open 6am to 6pm (M-F) and 8am to 2pm (Sat)</h3>
-<img class='imgcol' src='./media/storefront.png' />
-<h3>3 Cypress Branch Way STE 102, Palm Coast, FL</h3>
+	<h2>Welcome to TCC Valet!</h2>
+	<h3>We offer Dry Cleaning Valet<br />Pickup & Delivery Service !</h3>
+	<img class='imgcol' src='./media/van.png' />
+	<h3>386-627-4972</h3></td><td>
+	<h3>Check out our new store!<br />Open 6am to 6pm (M-F) and 8am to 2pm (Sat)</h3>
+	<img class='imgcol' src='./media/storefront.png' />
+	<h3>3 Cypress Branch Way STE 102, Palm Coast, FL</h3>
 </td></tr></table>
 
 <h2>We come to you twice a week at either your business or residence</h2>
