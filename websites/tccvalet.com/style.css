@@ -1,0 +1,177 @@
+html {
+    background: linear-gradient(#071c30, #2577c3); 
+    background-attachment:fixed;
+    color: #D3D3D3;
+    text-align: center;
+    height: 100%
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.logo {
+    padding:0;
+    margin:0;
+}
+
+.menu {
+    width: 840px;
+    margin: -5px auto 5px;
+    padding: 0;
+}
+
+.content {
+    text-align: justify;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.service {
+    margin: -1px;
+    display: inline;
+}
+
+.servicebar {
+    text-align: center;
+}
+
+.serviceDiv {
+    display: inline-block;
+}
+
+.imgservice {
+    width: 210px;
+    max-height: 210px;
+    margin: 0;
+    padding: 0;
+}
+
+.imgcol {
+    max-width: 420px;
+    max-height: 275px;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+img.small {
+    max-height: 200px;
+}
+
+.button {
+    padding: 12px 0;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: #071c30;
+    color: white;
+}
+
+a.small {
+    width: 120px;
+}
+
+a.large {
+    width: 200px;
+}
+
+.active{
+    background-color: #2168ab;
+    color: white;
+}
+
+.button:hover {
+    background-color: #1d5b96;
+}
+
+.active:hover {
+    background-color: #184e81;
+}
+
+p {
+    text-indent: 50px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+h3.left {
+    text-align: left;
+}
+
+.fonth3 {
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.serviceB {
+    padding: 0;
+    width: 420px;
+}
+
+.infoB {
+    padding: 0;
+    width: 840px;
+}
+
+.serviceInfo {
+    max-height: 0;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    padding: 0px 15px;
+}
+
+a:link, a:visited {
+    color: #D3D3D3;
+}
+
+a:hover {
+    color: #B0B0B0;
+}
+
+form {
+    text-align: left;
+}
+
+table {
+    width: 840px;
+}
+
+td {
+    width: 50%
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #071c30;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+iframe {
+    background-color: white;
+}
+
+.qa {
+    font-size: 26px;
+}
