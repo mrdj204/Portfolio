@@ -1,5 +1,5 @@
 # linkedin
-https://www.linkedin.com/in/dansmith204/
+https://www.linkedin.com/in/dansmith204
 
 # Codefights
 These bits of source code are my attempts at challenges from codefights.com
